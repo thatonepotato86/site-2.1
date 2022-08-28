@@ -1,0 +1,14 @@
+[build]
+    publish = "/public"
+
+[[edge_functions]]
+    path = "/hello"
+    function = "hello"
+
+[[edge_functions]]
+    path = "/greet"
+    function = "greet-transform"
+
+[[edge_functions]]
+    path = "/where"
+    function = "where-transform"
